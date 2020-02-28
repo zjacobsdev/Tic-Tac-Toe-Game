@@ -1,4 +1,4 @@
-#  Tic Tac Toe
+#  📌 Tic Tac Toe
 
 **Goal:** Create a simple  tic tac toe game with a reset button and score counter
 
