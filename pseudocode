@@ -1,0 +1,64 @@
+// Team Members: Zahmir, Nyah, Vanessa, Josh, Eric, Finesse, Asiah //
+
+1. playerhuman1 is automatically set to x
+    const playerhuman1 = X
+2. playerhuman2 is automatically set to o
+
+
+
+STEPS:
+1. onclick player1 will select a box. 1/9 options to choose from to place an x, the x shows where they clicked
+
+2. onclick player2 will select a box. 1/8 options to choose from to place an o, the o shows where they clicked
+
+3. onclick player1 will select a box. 1/7 options to choose from to place an x, the x shows where they clicked
+
+4. onclick player2 will select a box. 1/6 options to choose from to place an o, the o shows where they clicked
+
+5. onclick player1 will select a box. 1/5 options to choose from to place an x, the x shows where they clicked
+
+6. onclick player2 will select a box. 1/4 options to choose from to place an o, the o shows where they clicked
+
+7. onclick player1 will select a box. 1/3 options to choose from to place an x, the x shows where they clicked
+
+8. onclick player2 will select a box. 1/2 options to choose from to place an o, the o shows where they clicked
+
+9. onclick player1 will select a box. 1/1 options to choose from to place an x, the x shows where they clicked
+
+//Come up with code to alter players (x vs o) for the above (because someone can win without getting to all these steps)
+    //Possible Code: add 1+ to the click event
+
+//Calculate HOW TO WIN
+    // 8 directions to win
+      // If there is 3 of the same (x or o) in a row- win
+      }else{ draw/scratch
+
+//Calculate WHO WINS:
+  //Which variable has the three in a row? x or o? ALERT ([THAT VARIABLE] WINS)
+
+//(If reset button)- allows them to press to start game over/ clear board
+
+
+
+
+
+
+
+
+
+
+10. The programs calculate what spots on the grid are left, and calculates if their is a winner(the x's, or o's are three in the row )
+    -if there is a winner(human or bot), then write to the Dom `"blah" is the winner, add strike through
+    -if there is no winner, continue the game.
+
+4. then p2 (bot) will randomly place o in 1/8 options
+5. this turn-taking will take place until options = 1/1 or (human or bot get three in a row or tie)
+
+What can user do?
+  1. Click on grid to place x
+  2. User can restart or clear board
+
+What can user see?
+  User can see the board, they can see the places that have been marked, user can see if they are winning or losing to make next move
+  They can see instructions over the board
+What can user expect?

@@ -1,0 +1,41 @@
+/* <!-- Team Members: Zahmir, Nyah, Vanessa, Josh, Eric, Finesse, Asiah --> */
+*{
+  box-sizing:border-box;
+}
+html {
+  font-size: 10px;
+}
+h1 {
+  color: teal;
+}
+.winMessage{
+  font-size: 3rem;
+
+}
+#displayBoard {
+  border: 2px solid black;
+  height:605px;
+  width:605px;
+}
+
+.grid {
+  height:200px;
+  width: 200px;
+  border: 1px solid black;
+  float: left;
+  font-size: 20rem;
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+}
+.noClick{
+  pointer-events: none;
+}
+
+
+
+/* section section{
+ height:100px;
+ width: 33%;
+ float:left;
+} */
