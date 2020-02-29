@@ -15,6 +15,7 @@
   
 ## Optimizations
   - ADD a color over the winning commbination on the DOM.
+  - BUG: Play Wins message pops up randomly after once in a while even though no one has won
   - IMPROVE syntax consistency
   
 ## Examples:
