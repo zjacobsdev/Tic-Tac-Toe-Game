@@ -5,37 +5,177 @@
 html {
   font-size: 10px;
 }
-h1 {
-  color: teal;
+body{
+  background-image: url(images/giphy.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  width: 100%;
+  height:100%;
 }
-.winMessage{
-  font-size: 3rem;
+h1 {
+  color: purple;
+  text-align: center;
+  display: block;
+  font-family: 'Fredericka the Great' ;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+h2 {
+  color: white;
+  text-align: center;
+  display: block;
+  font-family: 'Fredericka the Great' ;
+  font-size: 2rem;
+  margin-top:200px;
+  padding-right: 22%;
+}
+span {
+  display: block;
+  /* text-align: end; */
+  margin-top: 30px;
+  font-size: 2rem;
+  margin-left: 60%;
+  margin-right: 28%;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
 
 }
+button{
+  font-size: 2rem;
+  color: purple;
+  font-family: 'Fredericka the Great' ;
+   margin-top: 25px;
+   margin-left: 11%;
+}
 #displayBoard {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height:605px;
-  width:605px;
+  width:50%;
+  clear:both;
+  float:left;
+  margin: 20px 0 0 25px;
 }
 
 .grid {
   height:200px;
-  width: 200px;
-  border: 1px solid black;
+  width: 30%;
+  border: 5px solid #ebe9f3;
   float: left;
   font-size: 20rem;
+  color:pink;
   display: flex;
   justify-content: center;
   font-family: helvetica;
 }
+#topSquareLeft, #midSquareLeft, #bottomSquareleft{
+  border-left:none;
+}
+#topSquareMid, #topSquareLeft, #topSquareRight{
+  border-top:none;
+}
+#topSquareRight, #midSquareRight, #bottomSquareRight{
+  border-right:none
+}
+#bottomSquareMid, #bottomSquareleft, #bottomSquareRight{
+  border-bottom:none;
+}
+.score{
+  /* margin: 0 40% 0 40%; */
+  font-family: 'Fredericka the Great' ;
+  color:#ebe9f3;
+  float:left;
+  margin-left: 25px;
+  font-size:30px;
+  padding: 100px 0 0 50px;
+}
+
 .noClick{
   pointer-events: none;
+}
+table{
+  display: block;
+  margin-left: 60%;
+  background-color: rgb(185, 122, 45);
+  width: 10%;
+  border-radius: 10px;
+}
+tr{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Tablet */
+@media screen and (max-width:900px){
+  .grid{
+    height:150px;
+    font-size: 10rem;
+  }
+  .score {
+    font-size:20px;
+  }
+  .winMessage{
+    font-size:35px;
+    color:Purple;
+  }
+  #displayBoard{
+    display: block;
+    width: 100%;
+ 
+ 
+ 
+ }
+ h2{
+  padding-left: 20%;
+}
+ table{
+   margin: auto;
+   height: 100px;
+   width: 30%;
+}
+tbody{
+  height: 100%;
+}
+span{
+  width:50%;
+  margin: auto;
+  margin-top: 40px;
+}
+button{
+  width: 30%;
+  margin-left: 35%;
+}
+
 }
 
 
 
-/* section section{
- height:100px;
- width: 33%;
- float:left;
-} */
+
+
+
+
+/* Phone */
+@media screen and (max-width:750px){
+#displayBoard{
+   display: block;
+   width: 100%;
+
+}
+h2{
+  padding-left: 20%;
+}
+table{
+ margin: auto;
+}
+span{
+  width:50%;
+  margin: auto;
+  margin-top: 40px;
+}
+button{
+  width: 30%;
+  margin-left: 35%;
+}
+}

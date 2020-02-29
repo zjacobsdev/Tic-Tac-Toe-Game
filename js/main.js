@@ -123,6 +123,8 @@ let ticGame = {
             document.querySelector('#bottomSquareRight').classList.add("noClick")
             ticGame.clearBoard()
 
+    
+
   
 
 
@@ -177,6 +179,7 @@ let ticGame = {
 
     board = ["", "", "", "", "", "", "", "", ""]
 
+    count = 0
 
   }
 
