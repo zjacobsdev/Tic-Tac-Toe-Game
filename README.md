@@ -4,7 +4,7 @@
 
 **Link to project:** TBA
 
-![](RPS.PNG)
+![](readme.PNG)
 
 ## How It's Made:
 
