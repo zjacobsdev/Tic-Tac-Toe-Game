@@ -2,7 +2,7 @@
 
 **Goal:** Create a simple  tic tac toe game with a reset button and score counter
 
-**Link to project:** TBA
+**Link to project:** https://github.com/zjacobsdev/Tic-Tac-Toe-Game
 
 ![](readme.PNG)
 
